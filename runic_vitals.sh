@@ -103,4 +103,4 @@ sleep 1
 conky -c ~/.config/conky/vitals.conf &
 
 echo "Runic Vitals installed! ✅"
-echo "If icons don’t show, try logging out and back in to refresh the font cache. 🔍"
+echo "If icons don’t show, try logging out and back in to refresh the font cache."
