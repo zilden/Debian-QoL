@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/82489c3e-e719-496e-bfcb-bcbe475f1ce1)
 
 
-# 🖥️ Runic Vitals - Usage Widget
+# 🖥️ Runic Vitals - Resource Widget
 
 A sleek widget for your Linux desktop showing essential system information with rounded corners and Nerd Font icons.  
 Designed with transparency, elegance, and readability in mind, perfect for minimal setups.
