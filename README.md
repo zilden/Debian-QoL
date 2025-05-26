@@ -26,7 +26,6 @@ Run in terminal via:
 
 
 ## Requirement:
-- Vitals
-- sudo apt install conky lm-sensors curl unzip -y
-- sudo sensors-detect (Press Y).
+- `sudo apt install conky lm-sensors curl unzip -y`
+- `sudo sensors-detect` (Press Y).
 - If icons don’t appear, log out and back in to refresh your font cache.
