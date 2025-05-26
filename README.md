@@ -14,7 +14,6 @@ A sleek widget for your Linux desktop showing essential system information with 
 - 🌍 **IP address**.
 - 📶 **Network speeds**.
 - 🏷️ Custom network name: **Runic Interactive**.
-- ⚪ Rounded rectangle background (via Lua + Cairo).
 - 🔤 Nerd Font icons (auto-installed).
 
 ---
