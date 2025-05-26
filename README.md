@@ -22,7 +22,7 @@ A sleek widget for your Linux desktop showing essential system information with 
 
 Run in terminal via:
 
-curl -s https://raw.githubusercontent.com/zilden/Debian-QoL/main/Runic%20Vitals/runic-vitals.sh | bash
+`curl -s https://raw.githubusercontent.com/zilden/Debian-QoL/main/Runic%20Vitals/runic-vitals.sh | bash`
 
 
 ## Requirement:
