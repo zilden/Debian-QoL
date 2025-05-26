@@ -3,8 +3,7 @@
 
 # Runic Vitals - Resource Widget
 
-A sleek widget for your Linux desktop showing essential system information with rounded corners and Nerd Font icons.  
-Designed with transparency, elegance, and readability in mind, perfect for minimal setups.
+A sleek widget for your Linux desktop showing essential system information with rounded corners and Nerd Font icons. Designed with transparency, elegance, and readability in mind, perfect for minimal setups.
 
 ## Features
 
