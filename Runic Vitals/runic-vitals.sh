@@ -1,5 +1,13 @@
 #!/bin/bash
 
+echo "Setting up Runic Vitals... 🧱 "
+
+echo "Installing dependencies... 📦 "
+sudo apt update
+sudo apt install -y conky lm-sensors curl unzip fonts-noto-color-emoji
+sudo sensors-detect --auto
+
+
 echo "Creating config directory... 📁"
 mkdir -p ~/.config/conky
 cd ~/.config/conky || exit
@@ -97,10 +105,27 @@ unzip -o JetBrainsMono.zip >/dev/null
 rm JetBrainsMono.zip
 fc-cache -fv
 
-echo "Restarting Conky... 🔁"
+
+echo "Creating autostart entry... ⚙️"
+mkdir -p ~/.config/autostart
+cat <<EOF > ~/.config/autostart/runic-vitals.desktop
+[Desktop Entry]
+Type=Application
+Exec=conky -c ~/.config/conky/vitals.conf
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Runic Vitals
+Comment=Start Runic Vitals widget at login
+EOF
+
+
+echo "Launching Runic Vitals... 🔁"
 pkill conky
 sleep 1
 conky -c ~/.config/conky/vitals.conf &
 
-echo "Runic Vitals installed! ✅"
-echo "If icons don’t show, try logging out and back in to refresh the font cache."
+echo ""
+echo "✅ Runic Vitals installed and running!"
+echo "🔁 Will auto-start at login."
+echo "🔤 If icons don’t appear, log out and back in to refresh fonts."
